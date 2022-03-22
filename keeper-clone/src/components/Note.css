@@ -1,0 +1,91 @@
+.note-card,
+.note-add {
+    border: solid 1px black;
+    border-radius: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(247, 247, 247, 0.829);
+    box-shadow: 0px 5px 8px -1px rgba(0, 0, 0, 0.51);
+    padding: 10px;
+    width: 300px;
+}
+
+.note-title {
+    font-size: 1.5em;
+    margin-bottom: 6px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    padding: 5px;
+    text-align: center;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+
+}
+
+.note-content {
+    line-height: 1.2;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow: hidden;
+    margin: 0 5px 5px 5px;
+    -webkit-line-clamp: 3;
+}
+
+.delete-button {
+    margin-left: 80%;
+}
+
+.line-clamp {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+
+.note-add {
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.note-form {
+    position: relative;
+}
+
+.note-input {
+    border: none;
+}
+
+.title-input {
+    width: 100%;
+    height: 2.5rem;
+    font-size: 1.6rem;
+    border-bottom: rgba(221, 218, 218, 0.829) solid 1px;
+    resize: none;
+}
+
+.content-input {
+    width: 100%;
+    font-size: 1.6rem;
+    flex-direction: row;
+    resize: none;
+}
+
+form.note-form .MuiFab-root {
+    background: rgba(214, 136, 20, 0.904);
+    color: white;
+    right: 18px;
+    bottom: -18px;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}

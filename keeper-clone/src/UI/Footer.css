@@ -1,0 +1,15 @@
+.footer-section{
+}
+footer {
+    position: fixed;
+    text-align: center;
+    height: 2.5em;
+    width:100%;
+    bottom:0;
+    background-color:rgba(214, 137, 20, 0.5);
+}
+footer p{
+    font-family: 'Playfair Display', serif;
+    font-weight: 300;
+    padding-bottom: 1em;
+}
