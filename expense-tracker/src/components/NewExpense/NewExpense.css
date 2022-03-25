@@ -1,0 +1,17 @@
+.new-expense {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-show{
+    border: 1px solid;
+    width: 50rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .5px;
+}

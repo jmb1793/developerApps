@@ -1,0 +1,19 @@
+button {
+
+    background-color: rgba(46, 179, 255, 0.932);
+    border: .5px solid rgba(37, 137, 196, 0.932);
+    margin: 4px;
+    color: white;
+    height: 2rem;
+
+}
+
+.button-show button {
+
+    width: 25rem;
+    height: 5rem;
+    border-radius: 15px;
+    font-size: 1.5em;
+    font-weight: bold;
+
+}

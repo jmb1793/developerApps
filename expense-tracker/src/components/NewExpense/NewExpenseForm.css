@@ -1,0 +1,39 @@
+.new-expense__controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 25px;
+    width: 50rem;
+    height: 12rem;
+}
+
+.new-expense__control {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 400px;
+    line-height: 26px;
+    margin: 25px 0 5px;
+}
+
+label {
+    width: 100%;
+}
+
+input {
+    height: 20px;
+    flex: 0 0 200px;
+    float: right;
+}
+
+.new-expense__actions {
+    margin: 10px;
+}
+
+button {
+    border-radius: 10px;
+}

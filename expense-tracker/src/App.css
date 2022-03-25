@@ -1,0 +1,11 @@
+.App-header{
+  text-align: center;
+}
+.expenses {
+  padding: 1rem;
+  background-color: rgba(165, 161, 161, .5%);
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+
+}
